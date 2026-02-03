@@ -1,0 +1,10 @@
+name: LsRedeem
+version: 1.0
+main: me.leuz.lsredeem.Main
+author: leu14z
+api-version: 1.13
+commands:
+  redeem:
+    description: Resgatar um código.
+  lsredeem:
+    description: Admin LsRedeem.

@@ -1,0 +1,30 @@
+# +-------------------------------------------------------+
+# |                LsRedeem - By leu14z                   |
+# |      GitHub: https://github.com/leu14z                |
+# +-------------------------------------------------------+
+
+Settings:
+  # Idiomas disponíveis: PT-BR, EN-US (Atualmente manual via mensagens abaixo)
+  Language: "PT-BR"
+  # Nome do arquivo de banco de dados
+  DatabaseFile: "database.db"
+  # Ativar proteção de IP (Anti-Alt)
+  AntiAbuse: true
+  # Prefixo que aparecerá antes de todas as mensagens
+  Prefix: "&b&lREDEEM &8» "
+
+Messages:
+  NoPermission: "&cVocê não tem permissão para isso."
+  CodeNotFound: "&cO código &f%code% &cnão existe ou expirou."
+  AlreadyRedeemed: "&cVocê já resgatou este código anteriormente."
+  Success: "&aSucesso! Você resgatou o código &f%code%&a."
+  Reload: "&aConfigurações e Banco de Dados recarregados!"
+  PlayerReset: "&aO histórico do jogador &f%player% &afoi limpo."
+  UsageAdmin: "&cUse: /lsredeem <criar|resetar|resetartudo|list|reload>"
+
+codes:
+  testecode:
+    uses: 10
+    initial_uses: 10
+    commands:
+      - "give %player% diamond 1"
